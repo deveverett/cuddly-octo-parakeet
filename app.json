@@ -1,0 +1,28 @@
+{
+  "id": "e8cd0536-d5ea-4917-b07b-472c69417ed9",
+  "name": "cuddly-octo-parakeet",
+  "publisher": "deveverett",
+  "version": "1.0.0.0",
+  "brief": "A basic AL app for Business Central.",
+  "description": "A basic AL application for Dynamics 365 Business Central.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "23.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  }
+}
