@@ -12,4 +12,9 @@ if [ -z "$SESSION_ID" ]; then
   exit 1
 fi
 
+if ! command -v claude &>/dev/null; then
+  echo "Error: 'claude' CLI not found on PATH. Install it with: npm install -g @anthropic-ai/claude-code" >&2
+  exit 1
+fi
+
 exec claude --resume "$SESSION_ID"
